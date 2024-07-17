@@ -1,5 +1,4 @@
 FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu20.04
-LABEL maintainer="gleno@berkeley.edu"
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y cuda-command-line-tools-12-1 curl git wget build-essential g++ python3.8 python3-pip 
 
